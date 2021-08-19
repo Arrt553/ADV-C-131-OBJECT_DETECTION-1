@@ -1,0 +1,43 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+    cursor: not-allowed;
+font-size: 18px;
+
+}
+.object_heading{
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 0px;
+    width: 100%;
+    cursor: none;
+    font-family: 'Style Script', cursive;
+    font-size: 55px;
+    font-weight: bold;
+}
+canvas{
+    animation-name: example2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{border: 10px double #0345fc; box-shadow: 10px 10px 8px #03adfc;}
+    to{border: 13px double #03c2fc; box-shadow: 10px 10px 8px #e3fc03;}
+}
+@keyframes example2{
+    from{border: 7px groove #5d5f66; box-shadow: 10px 10px 8px #03adfc;}
+    to{border: 13px double #10181b; box-shadow: 10px 10px 8px #e3fc03;}
+}
+
